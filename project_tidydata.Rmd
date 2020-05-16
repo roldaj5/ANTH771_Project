@@ -1,0 +1,279 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r global_options, echo=FALSE, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, eval = TRUE)
+```
+
+```{r load-packages-and-data, message = FALSE, warning=FALSE}
+# load necessary packages
+library(tidyverse)
+library(tidyr)
+library(reshape2)
+library(knitr)
+
+```
+
+```{r}
+ <- <- <- <- <- <- 
+```
+
+```{r}
+
+Subvalue <- function(old,var,new,exit){
+  # old = the value in df that we want to substitute
+  # var = the column where value is located
+  # new = new value
+  # exit = an argument
+  p <- ifelse(grepl(old,var),new,exit)
+  return(p)
+}
+          
+```
+
+```{r}
+# Cleaning Data
+
+# Debitage Database
+# Assign new variable names
+names(Debitage) <- Debitage[3,]
+
+# Delete unnecessary rows
+Debitage2 <- Debitage[-c(1:3),]
+
+# Provenience information will be broken apart
+Debitage2 <- Debitage2 %>% 
+  separate(Provenience,
+           c("Operation","Suboperation","Lot"),
+           sep = "-") 
+
+# Correcting variable types 
+Debitage3 <- Debitage2 %>% 
+  mutate(Debitage_Id=as.integer(`Artifact#`),
+         Operation=as.integer(Operation),
+         Lot=as.integer(Lot),
+         Count=as.integer(Quantity),
+         Mass_g=as.double(`Weight (Grams)`),
+         Average_Lenghtmm=as.double(`Size (mm)`),
+         Researcher=`Analyzed by`) 
+
+# Deleting dublicate/old variables 
+Debitage3 <- Debitage3[,c(1,5:7,10,2:4,11:13,9,14)]
+Debitage3 <- Debitage3[,-c(1:4)]
+
+# Comments include a variety of information. However, I 
+# interested in only those that contain cortex (reduction sequence) 
+# or raw material information,
+Debitage4 <- Debitage3 %>%
+  mutate(Category=Subvalue("[Cc]ortex",Comments,1,0),
+         Raw_material=Subvalue("[Cc]hert",Comments,"Chert",
+                               Subvalue("[Ll]imestone",Comments,"Limestone",
+                                        NA))) 
+
+Debitage4 <- Debitage4[,c(1:7,10:11,8:9)]
+
+```
+
+```{r}
+# Cleaning Data
+
+# Flake Database
+# Renaming variable 
+Flakes2 <- Flakes %>% 
+  separate(Provenience,
+           c("Operation","Suboperation","Lot"),
+           sep = "-") %>% 
+  transmute(Artifact_Id=Artifact.,
+            Operation=as.numeric(Operation),
+            Suboperation=Suboperation,
+            Lot=as.numeric(Lot),
+            Lenght_mm=Length..mm., 
+            Width_mm=as.numeric(Width..mm.),
+            Mass_g=as.numeric(Weight..g.),
+            Thickness_mm=Thickness..mm.,
+            Thickness_bulb_mm=as.numeric(Bulb.Thickness..mm.),
+            Raw_material=Material.Type,
+            Quality=Material.Quality,
+            Cortex=Cortex,
+            Attribute_platform=Platform,
+            Attribute_termination=Term.,
+            Comments=Comments,
+            Quality=trimws(Quality)) %>% 
+  mutate(Quality=Subvalue("Very Good|Smooth",Quality,5,
+                          Subvalue("Good",Quality,4,
+                                   Subvalue("Intermediate",Quality,3,
+                                            Subvalue("^Bad",Quality,2,
+                                                     1)))))
+
+# The Cortex variable contains 6 unique values. 
+# However, there should only be three. 
+# Reclassifying X values to None 
+Flakes2$Cortex <- sub("[Xx]","None",Flakes2$Cortex)
+
+# This values in the original database were leq to 50
+a <- c(585,586,589,592,593,596,597,606,638)
+# This values were geq to 50 
+b <- c(795,801,881)
+
+Flakes3 <- Flakes2 %>% 
+  mutate(Cortex=ifelse(Artifact_Id %in% a,"<50%",Cortex),
+         Cortex=ifelse(Artifact_Id %in% b,">50%",Cortex))
+
+# Some comments show that observation might be tools rather than flakes
+# Key words that differentiate tools from flakes
+d <- c("work|[Tt]ool|[Pp]ressure|[Ff]laking|Utalized|chopper")
+
+Flakes4 <- Flakes3 %>% 
+  filter(!grepl(d,Comments))
+
+# We want to save the tools for later
+Merge_Tools <- Flakes3 %>% 
+  filter(grepl(d,Comments))
+
+# Lastly, the platform and Termination variables need to be cleaned
+Flakes5 <- Flakes4 %>% 
+  mutate(Attribute_platform=Subvalue("[Xx]",Attribute_platform,NA,Attribute_platform),
+         Attribute_platform=trimws(Attribute_platform),
+         Attribute_termination=Subvalue("[Xx]",Attribute_termination,NA,
+                                        Subvalue("^[Ff]eath|ring$",Attribute_termination,"Feathered",
+                                                 Subvalue("^[Ss]tep",Attribute_termination,"Stepped",
+                                                          Subvalue("^[Hh]ing",Attribute_termination,"Hinged",
+                                                                   Subvalue("^[Oo]ver",Attribute_termination,"Overshot",
+                                                                            Subvalue("[unk]",Attribute_termination,NA,
+                                                                                     Attribute_termination)))))),
+         Attribute_termination=trimws(Attribute_termination))
+
+```
+
+
+```{r}
+# Cleaning Data
+
+# Tools Database
+# Renaming variable and consolidating repetative values
+Tools2 <- Tools %>% 
+  select(-Code..) %>% 
+  separate(Provenience,
+           c("Operation","Suboperation","Lot"),
+           sep = "-") %>% 
+  transmute(Artifact_Id=Artifact.Number,
+            Operation=as.numeric(Operation),
+            Suboperation=Suboperation,
+            Lot=as.numeric(Lot),
+            Type_collection=Code.Name,
+            Lenght_mm=L..mm., 
+            Width_mm=W..mm.,
+            Thickness_mm=T..mm.,
+            Mass_g=Wt..g.,
+            Raw_material=Mat.,
+            Quality=Grain,
+            Comments=Comments) %>% 
+  mutate(Raw_material=Subvalue("[Cc]hert",Raw_material,"Chert",
+                               Subvalue("?",Raw_material,NA,
+                                        Raw_material)),
+         Type_collection=Subvalue("[cC]ore",Type_collection,"Core",
+                                  Subvalue("[Ss]crap",Type_collection,"Scrapper",
+                                           Subvalue("[Dd]rill",Type_collection,"Drill",
+                                                    Subvalue("Chop|axe|GUB",Type_collection,"GUB",
+                                                             Subvalue("[Bb]iface",Type_collection,"Biface Other",
+                                                                      Type_collection))))),
+         Quality=Subvalue("Very Good|Smooth",Quality,5,
+                          Subvalue("Good",Quality,4,
+                                   Subvalue("Intermediate",Quality,3,
+                                            Subvalue("^Bad",Quality,2,
+                                                     1)))))
+
+# There is an observation designted as tool but it actully is ground stone
+Tools3 <- Tools2[!(Tools2$Artifact_Id %in% 759),]
+         
+```
+
+```{r}
+# Cleaning Data
+# Obsidian Database
+
+# Correcting types and renaming variable 
+Obsidian2 <- Obsidian %>% 
+  separate(Prov,
+           c("Operation","Suboperation","Lot"),
+           sep = "-") %>%
+  transmute(Artifact_Id=Artifact.., 
+             Operation=as.numeric(Operation),
+             Suboperation=Suboperation,
+             Lot=as.numeric(Lot),
+             Type_collection=Type,
+             Lenght_mm=L..mm.,
+             Width_mm=W..mm.,
+             Thickness_mm=Thic..mm., 
+             Mass_g=Weight..g.,
+             Comments=Comments)
+# Because our goal is to separate this database and merge them with 
+# either the tools or flakes database, we will omit the following
+#variables:
+# Wear.Type, Platform.Type, Category, Form, and Analyzed.by 
+
+# Flakes
+Obsidian_Flake <- Obsidian2 %>% 
+  filter(grepl("Flake",Type_collection)) %>% 
+  mutate(Raw_material="Obsidian",
+         Quality=Subvalue("[vV]ery [gG]ood|Smooth",Comments,5,
+                          Subvalue("Good",Comments,4,
+                                   Subvalue("Intermediate",Comments,3,
+                                            Subvalue("^Bad|[Pp]oor",Comments,2,
+                                                     Subvalue("[Vv]ery [bB]ad",Comments,1,
+                                                              NA))))),
+         Cortex=Subvalue("[Cc]ortex",Comments,"<50%","None"),
+         Attribute_termination=Subvalue("[Ff]eath",Comments,"Feathered",
+                                        Subvalue("[Oo]ver",Comments,"Overshot",
+                                                 Subvalue("[Ss]tep",Comments,"Stepped",
+                                                          Subvalue("[Hh]ing",Comments,"Hinged",
+                                                                   NA))))) 
+
+Obsidian_Flake <- Obsidian_Flake[,c(1:9,11:14,10)]
+
+# Tools
+Obsidian_Tools <- Obsidian2 %>% 
+  filter(!grepl("Flake",Type_collection)) %>% 
+  mutate(Raw_material="Obsidian",
+         Quality=Subvalue("[vV]ery [gG]ood|Smooth",Comments,5,
+                          Subvalue("Good",Comments,4,
+                                   Subvalue("Intermediate",Comments,3,
+                                            Subvalue("^Bad|[Pp]oor",Comments,2,
+                                                     Subvalue("[Vv]ery [bB]ad",Comments,1,
+                                                              NA))))),
+         Type_collection=Subvalue("Unif",Type_collection,"Uniface",Type_collection))
+Obsidian_Tools <- Obsidian_Tools[,c(1:9,11:12,10)]
+
+```
+
+```{r}
+# Here we will add all observation units that to their correct dataset
+
+# Flakes to Tools
+MergeTools2 <- Merge_Tools %>% 
+  mutate(Type_collection=Subvalue("chopper",Comments,"GUB",
+                                  Subvalue("[Tt]ool",Comments,NA,
+                                           "Utilized Flake"))) %>% 
+  select(Artifact_Id,Operation,Suboperation,Lot,Type_collection,everything()) %>% 
+  select(-c(Cortex,Thickness_bulb_mm,Attribute_platform,Attribute_termination))
+
+# Obsidian to Tools
+
+# Obsidian to Flakes
+Tools4 <- Stack::Stack(Tools3,MergeTools2) 
+Tools4 <- Stack::Stack(Tools4,Obsidian_Tools)
+Tools4 <- arrange(Tools4,Artifact_Id)
+
+Flakes6 <- Stack::Stack(Flakes5,Obsidian_Flake)
+Flakes6 <- arrange(Flakes6,Artifact_Id)
+```
+
+```{r}
+# Exporting new tidy datasets
+write.csv(Debitage4,"C:/Users/Roldan/Desktop/Project/Datasets/TidyData/Debitage.csv",row.names=FALSE)
+write.csv(Flakes6,"C:/Users/Roldan/Desktop/Project/Datasets/TidyData/Flakes.csv",row.names=FALSE)
+write.csv(Tools4,"C:/Users/Roldan/Desktop/Project/Datasets/TidyData/Tools.csv",row.names=FALSE)
+```
+
