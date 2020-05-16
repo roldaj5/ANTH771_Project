@@ -1,0 +1,384 @@
+"Artifact_Id","Operation","Suboperation","Lot","Lenght_mm","Width_mm","Mass_g","Thickness_mm","Raw_material","Quality","Cortex","Attribute_termination","Comments","Thickness_bulb_mm","Attribute_platform","Type_collection"
+234,1,"B",5,37.9,20.9,4.9,3.9,"Chert",3,"<50%","Feathered","Reanalyzed JB",5.7,"Flat",NA
+238,1,"B",5,32.4,19.3,3.7,7.8,"Chert",4,"None",NA,"Reanalyzed JB",NA,NA,NA
+239,1,"B",5,22.7,15.9,2.2,7.3,"Chert",4,"None","Feathered","Reanalyzed JB",7.5,NA,NA
+240,1,"B",5,29,14.1,1.5,2,"Chert",4,"None",NA,"Reanalyzed JB",2.5,NA,NA
+241,1,"B",5,17.6,20.5,2.2,5.2,"Chert",4,"None","Feathered","Reanalyzed JB",NA,NA,NA
+242,1,"B",5,23.8,19.8,2.8,5.4,"Chert",5,"None","Feathered","Reanalyzed JB",NA,NA,NA
+585,4,"P",1,40.1,33.8,8.4,7.4,"Chert",2,"<50%",NA,"",6.8,"Flat",NA
+586,4,"P",1,22.1,16.2,1.6,3.8,"Chert",4,"<50%","Feathered","",3.8,NA,NA
+587,4,"P",1,36.8,24.8,9.3,11.7,"Chert",5,"None",NA,"Grey / black chert",10.1,"Flat",NA
+588,4,"P",1,32,16.5,24,4.6,"Chert",4,"None","Feathered","",4.1,"Flat",NA
+589,4,"P",1,39.2,17.7,1.8,11,"Chert",1,"<50%",NA,"",12.7,"Flat",NA
+591,4,"P",1,27.2,16.3,3.2,9.1,"Chert",3,">50%",NA,"Oxidized",9.1,"Cortical",NA
+592,4,"P",1,19.6,17.6,1.5,6,"Limestone",4,"<50%",NA,"Masonry",5.1,NA,NA
+593,4,"P",1,40,6.2,33.4,4.9,"Limestone",2,"<50%",NA,"Masonry",NA,NA,NA
+595,4,"L",2,16.2,12.3,1.1,4.5,"Chert",3,"None","Feathered","",NA,NA,NA
+596,4,"L",2,21.6,19,2.7,7.2,"Cherrt",2,"<50%",NA,"",NA,NA,NA
+597,4,"L",2,37.2,32.6,17.9,12.4,"Chert",2,"<50%","Stepped","",NA,NA,NA
+603,6,"B",3,23.3,16.8,1.5,3,"Chert",4,"None","Feathered","",3.4,"Flat",NA
+604,6,"B",3,62.2,45.4,28.4,8.9,"Chert",3,"None",NA,"Two bulbs of force",10.5,NA,NA
+605,6,"B",3,45.6,12.4,14.5,16.6,"Chert",2,"None",NA,"",NA,NA,NA
+606,6,"B",3,35,17.6,25.1,19,"Chert",4,"<50%","Flat","",NA,NA,NA
+607,6,"B",3,33.8,27,11.8,16.5,"Chert",1,"None",NA,"",12.3,"Flat",NA
+608,6,"B",3,24.6,18.4,34,8.5,"Chert",2,"None",NA,"Broken on both ends",NA,NA,NA
+609,6,"B",3,35.3,23.4,8.4,8.6,"Chert",1,"None","Feathered","",NA,"Flat",NA
+610,6,"B",3,35.4,19.9,8.1,11.6,"Chert",2,"None",NA,"",NA,NA,NA
+611,6,"B",3,24.7,15.7,5.5,9.3,"Chert",3,"None",NA,"",NA,NA,NA
+612,6,"B",3,30.2,24.6,5.7,7.4,"Chert",2,"None",NA,"",NA,NA,NA
+613,6,"B",3,34,29.1,4.6,5.8,"Chert",3,"None",NA,"",6.8,"Flat",NA
+614,6,"B",3,25,11.2,5.6,14.2,"Chert",5,"None",NA,"Rounded body on one side ",NA,NA,NA
+615,6,"B",3,24,14.3,4.5,12.4,"Chert",1,"None",NA,"",NA,NA,NA
+616,6,"B",3,41.4,23,6.4,7.2,"Chert",5,"None",NA,"",NA,NA,NA
+617,6,"B",3,24.2,10.8,0.6,2.1,"Chert",4,"None","Feathered","",NA,NA,NA
+618,6,"B",3,25.9,18.2,4.2,8.7,"Chert",3,"None",NA,"",NA,NA,NA
+619,6,"B",3,26.9,22.4,5.6,9.5,"Chert",3,"None",NA,"",10.3,"Flat",NA
+620,6,"B",3,21.4,11.7,3.2,8.3,"Chert",5,"None",NA,"",NA,NA,NA
+621,6,"B",3,21.4,14.6,2.2,4.9,"Chert",4,"None","Feathered","",5.5,"Flat",NA
+622,6,"B",3,18.4,10,1.8,9.4,"Chert",3,"None",NA,"",NA,NA,NA
+623,6,"B",3,26.6,15.4,1.2,2,"Chert",3,"None","Hinged","",NA,NA,NA
+624,6,"B",3,18.8,14.1,1.8,6.6,"Chert",4,"None",NA,"",5.8,"Flat",NA
+626,6,"B",3,75.1,13.3,1.3,2.6,"Chert",3,"None",NA,"",NA,NA,NA
+627,6,"B",3,22,17.5,1.5,4.2,"Chert",3,"None","Feathered","",NA,NA,NA
+628,6,"B",3,21.2,17.6,1.6,4.3,"Chert",3,"None",NA,"",5.9,"Flat",NA
+630,6,"B",3,21.3,12.6,1.2,5,"Chert ",4,"None","Feathered","",5.4,NA,NA
+631,6,"B",3,17.5,13.4,1.3,3.3,"Chert",3,"None",NA,"",3.8,"Flat",NA
+633,6,"D",5,32.2,70.7,4.2,6.7,"Limestone",3,"None","Feathered","",6.8,"Flat",NA
+634,6,"D",5,17.8,11.7,1.4,5.4,"Chert",4,"None",NA,"",4.5,NA,NA
+635,4,"F",3,22,16,7,3,"Chert",5,"None",NA,"",3.5,"Flat",NA
+638,6,"B",4,32.2,24.1,5.8,9.3,"Chert",2,"<50%","Cortical","",9,"Flat",NA
+639,6,"B",4,34.1,19.9,5.3,7.7,"Chert",3,"None",NA,"",NA,NA,NA
+640,6,"B",4,25.3,19.7,2.2,4.8,"Chert",4,"None",NA,"",NA,NA,NA
+642,6,"B",4,23.9,15.5,2.1,7.9,"Chert",3,"None",NA,"",NA,NA,NA
+643,6,"B",4,28.8,15.2,3.2,6.1,"Chert",3,"None","Stepped","",NA,NA,NA
+644,6,"B",4,19.1,16,1.4,4.1,"Chert",3,"None",NA,"",NA,NA,NA
+645,6,"B",4,21.8,15.9,1.4,4.2,"Chert",2,"None",NA,"",NA,NA,NA
+646,6,"B",4,22.9,16.4,1.1,2.3,"Chert",4,"None","Feathered","",2.3,"Flat",NA
+647,6,"B",4,36,24,3.3,3.7,"Chert",3,"None","Feathered","",3.2,"Flat",NA
+648,6,"B",4,33.5,29.9,4.9,5.7,"Limestone",3,"None","Feathered","Masonry Flake",NA,"Flat",NA
+649,6,"B",4,30.6,18.3,2.6,4.5,"Limestone",3,"None","Feathered","Masonry Flake",5.8,"Flat",NA
+650,6,"B",4,20.9,19.3,2.2,5.8,"Limestone",2,"None",NA,"Masonry Flake",6.3,"Flat",NA
+651,6,"B",4,21.7,17.6,1.8,3.8,"Limestone",3,"None",NA,"Masonry Flake",NA,NA,NA
+652,6,"B",4,20.1,21.2,1.3,4.4,"Limestone",3,"None",NA,"Masonry Flake",4.5,"Flat",NA
+654,4,"B",4,25.1,6.8,0.6,2.9,"Limestone",3,"None","Stepped","",NA,"Flat",NA
+657,4,"F",3,30.8,19.5,3.4,5.4,"Chert",2,"None","Hinged","",5.7,"Flat",NA
+658,4,"F",3,19.3,13.4,1.2,3.3,"Chert",2,"None",NA,"",3.8,NA,NA
+660,6,"B",2,25.3,18.7,3.8,5.6,"Chert",3,"None","Overshot","",NA,NA,NA
+663,6,"B",2,29.5,21.8,2.7,3.5,"Chert",3,"None",NA,"",4.1,NA,NA
+664,6,"B",2,20.4,20.2,1.4,5.3,"Chert",4,"None",NA,"",NA,NA,NA
+665,6,"B",2,22.6,10.4,1.5,7.3,"Chert",2,"None",NA,"",NA,NA,NA
+666,6,"B",2,22.9,17.1,3.1,8.3,"Chert",5,"None","Feathered","",6.8,"Flat",NA
+672,6,"A",2,24.5,19.5,4.2,10.8,"Chert",5,"None",NA,"",NA,NA,NA
+673,6,"A",2,22.1,22.4,3.6,7.3,"Chert",3,"None",NA,"",7.2,"Flat",NA
+674,6,"A",2,27,19.9,3.5,5.6,"Chert",3,"None",NA,"",NA,NA,NA
+676,6,"A",2,17.6,14.3,0.6,2.3,"Chert",4,"None",NA,"",NA,NA,NA
+677,6,"A",2,31.6,20.3,2.7,4.1,"Limestone",2,"None",NA,"Masonry Flake",NA,NA,NA
+681,6,"A",2,18.5,11.7,1.6,7.4,"Chert",2,"None",NA,"",NA,NA,NA
+682,6,"A",3,30.7,19.5,3.7,5,"Chert",4,"None","Feathered","",6,NA,NA
+683,6,"A",3,24,21.1,2.5,6,"Chert",2,"None","Feathered","",6.6,"Flat",NA
+684,6,"A",3,15.5,9,1.2,5.5,"Chert",5,"None",NA,"",NA,NA,NA
+686,6,"A",3,20.8,13.9,2.5,1.5,"Chert",4,"None","Hinged","",4.1,"Flat",NA
+687,6,"A",3,18.6,11.2,4.5,1.2,"Chert",5,"None","Feathered","",4.6,"Flat",NA
+691,6,"A",3,33.8,21.9,5.4,9.4,"Chert",5,"None","Feathered","",9.2,NA,NA
+693,6,"D",2,41,23,10.7,11,"Chert",3,"<50%","Feathered","",NA,NA,NA
+694,6,"D",2,24,14,0.5,2,"Chert",5,"None","Feathered","",2,NA,NA
+695,6,"D",2,31,29,1.2,9.5,"Chert",1,"<50%",NA,"",NA,NA,NA
+696,6,"C",2,14,12,0.3,2,"Chert",5,"None",NA,"",NA,NA,NA
+699,4,"G",3,37.3,22,7.2,6.1,"Chert",1,"None",NA,"",NA,NA,NA
+700,4,"G",3,34.7,17.3,6,10.6,"Chert",4,"None",NA,"",9.5,NA,NA
+701,4,"G",3,24.2,17.9,3.9,2.2,"Chert",3,"<50%",NA,"",NA,NA,NA
+708,6,"A",1,46.9,17.8,11.9,13.2,"Chert",3,"None",NA,"",NA,NA,NA
+709,6,"A",1,24.6,15.7,9.1,2.6,"Chert",1,"None",NA,"",NA,NA,NA
+710,6,"A",1,21.6,16.2,3.4,1.4,"Chert",3,"None","Feathered","",NA,NA,NA
+711,6,"A",1,16.8,13.9,4.7,0.8,"Chert",5,"None","Feathered","",4.7,"Flat",NA
+712,6,"A",1,17.1,8.6,4.8,0.7,"Chert",3,"None",NA,"",NA,NA,NA
+713,6,"A",1,17,10.1,3.6,0.8,"Chert",3,"None","Feathered","",3.6,"Flat",NA
+714,6,"A",1,14,7.8,2.8,0.3,"Chert",3,"None","Feathered","",2.8,"Flat",NA
+717,4,"M",1,32.1,25.1,4.6,4.9,"Chert",4,"None","Feathered","",7.5,"Flat",NA
+718,4,"M",1,22,12,0.6,1.5,"Chert",3,"None","Feathered","",NA,NA,NA
+720,4,"L",1,32,30,4.8,7,"Chert",3,"<50%","Feathered","",4.1,"Flat",NA
+721,4,"L",1,29,22,8.5,12,"Chert",3,"None",NA,"",NA,NA,NA
+722,4,"L",1,28,21,3.1,5,"Chert",2,"None",NA,"",NA,NA,NA
+723,4,"L",1,24,20,0.9,3,"x",1,"None",NA,"",3.1,"Flat",NA
+724,4,"O",2,70,49,18,33.7,"Chert",4,"None","Stepped","",17.1,"Flat",NA
+725,4,"O",2,31.5,20.2,39,6,"Chert",4,"None","Feathered","",5,"Flat",NA
+726,4,"O",2,37,18,4,8,"Chert",3,"None","Feathered","",7.9,"Abradded",NA
+727,4,"O",2,44,39,22.2,11,"Chert",3,"None",NA,"",NA,NA,NA
+728,4,"O",2,33,26,4.4,7,"Chert",4,"<50%",NA,"",NA,NA,NA
+729,4,"O",2,30.5,9.8,0.7,1.8,"Chert",4,"None","Feathered","Curved flake",2.5,NA,NA
+730,4,"O",2,24,17.8,2,4,"Limestone",3,"None",NA,"Masonry",NA,NA,NA
+736,4,"O",2,44,18.9,3.4,3.8,"Chert",4,"None","Hinged","",3.1,NA,NA
+737,4,"D",4,63.2,30.4,18.1,7.9,"Limestone",3,"None",NA,"Masonry",NA,"Flat",NA
+738,4,"D",4,18.5,14.8,1.3,4.1,"Limestone",3,"None",NA,"Masonry",NA,NA,NA
+742,4,"N",1,28.8,14.4,2.2,5.1,"Chert",4,"None","Feathered","",5.1,NA,NA
+743,4,"N",2,22.4,34.5,35.5,17.2,"Chert",4,"None",NA,"Really dark chert almost black ",NA,"Flat",NA
+751,4,"O",2,33.8,23.5,3.8,4.7,"`Chert",5,"None","Feathered","Refit",NA,NA,NA
+752,4,"O",2,30.3,20,4,5.5,"Chert",5,"None","Feathered","Refit",5.8,NA,NA
+753,4,"O",2,18.5,13.7,1.2,4.3,"Chert",3,"None",NA,"",NA,NA,NA
+755,4,"K",2,30.1,17.5,9.2,10.1,"Limestone",3,"None",NA,"Masonry Flake",NA,NA,NA
+756,4,"K",2,64.4,25.7,17.8,11.7,"Chert",4,"None","Overshot","",10.5,"Flat",NA
+757,4,"K",2,32.4,24,5,8.3,"Chert",3,"None",NA,"",6,"Flat",NA
+760,4,"G",4,24.3,15.1,1.3,2.6,"Chert",4,"None","Feathered","",NA,NA,NA
+761,4,"G",4,25,24,7.7,11,"Chert",5,"None",NA,"",NA,NA,NA
+762,4,"G",3,39.7,23.3,18.6,16.6,"Chert",2,"None",NA,"",NA,NA,NA
+763,4,"G",3,39,33,9.6,16.6,"Chert",2,"None",NA,"",8,"Flat",NA
+764,4,"G",3,40.2,11.5,4.9,11.9,"Chert",5,"<50%",NA,"",NA,NA,NA
+765,4,"G",3,31.1,18.4,3.7,17.9,"Chert",3,"None",NA,"",NA,NA,NA
+766,4,"G",3,18,13.4,1.2,3,"Chert",3,"None",NA,"",NA,NA,NA
+767,4,"G",3,34.4,26.3,5.8,8.3,"Chert",3,"None","Feathered","",8.8,NA,NA
+768,4,"G",3,20.7,13.2,1.2,4.3,"Chert",4,"None","Feathered","",4.7,"Flat",NA
+769,4,"G",3,21,10,1.1,3.9,"x",3,"None","Feathered","",NA,NA,NA
+770,4,"G",3,15.4,12.7,0.5,2.2,"Chert",5,"None","Feathered","",3,NA,NA
+771,4,"G",3,41.4,34.2,29.6,16.9,"Chert",4,"<50%",NA,"",NA,NA,NA
+772,4,"G",3,26.1,19.5,3.3,5.1,"Limestone",3,"None",NA,"Masonry ",NA,NA,NA
+773,4,"G",3,28.6,19.4,3.2,7.6,"Limestone",4,"None",NA,"Masonry",NA,NA,NA
+774,4,"G",3,25,21.1,3,6.1,"Limestone",4,"None",NA,"Masonry",NA,NA,NA
+775,4,"G",3,21.2,13,1.4,5.3,"Limestone",4,"None",NA,"Masonry",NA,NA,NA
+776,4,"G",3,18.5,19.3,2.3,6.8,"Limestone",3,"None","Feathered","Masonry",NA,NA,NA
+777,4,"G",3,25.3,20.4,2.4,7.2,"Limestone",3,"None",NA,"Masonry",NA,NA,NA
+778,4,"G",3,57,37.6,28.5,13.2,"Limestone",2,"None",NA,"Masonry",NA,NA,NA
+779,4,"G",3,57.2,47.3,41.8,14.5,"Limestone",3,"None","Feathered","Masonry",15.4,"Flat",NA
+786,4,"J",5,14.6,9.7,0.5,2.7,"Chert",5,"None","Feathered","",NA,NA,NA
+787,4,"J",6,29.5,25.4,4.6,5.2,"Chert",5,"None","Feathered","Very nice flake",6.2,"Flat",NA
+788,4,"J",6,21.8,16.3,1,2.6,"Chert",5,"None","Feathered","",NA,NA,NA
+790,4,"K",1,34.6,21.2,8.3,8,"Chert",2,"None",NA,"",NA,NA,NA
+791,4,"K",1,23.2,27.9,2.6,3.9,"Chert",4,"None","Hinged","",4.7,"Flat",NA
+792,4,"K",1,23.1,13.4,2.6,9.8,"Chert",5,"None",NA,"",NA,NA,NA
+793,4,"K",1,21.1,13.6,1,2.3,"Chert",4,"None",NA,"",NA,NA,NA
+794,4,"K",1,20.9,10,0.6,2.9,"Chert",4,"None","Feathered","",3.1,NA,NA
+795,4,"K",1,15.8,13.2,0.8,4.1,"Chert",5,">50%",NA,"",4.1,"Cortical",NA
+796,4,"K",1,28.7,29,14.5,30.8,"Limestone",3,"None",NA,"Masonry",9.2,NA,NA
+801,4,"K",3,22.6,17.7,2,4.3,"Chert",4,">50%","Feathered","",4.1,"Flat",NA
+802,4,"K",3,54,32.2,25,15.6,"Chert",3,"None","Feathered","",NA,NA,NA
+805,4,"J",4,14.5,10.9,1.4,6.3,"Chert",4,"None",NA,"",NA,NA,NA
+807,4,"I",1,29.7,21.4,3.8,5.4,"Limestone",4,"None","Feathered","Masonry 2012",5.6,"Flat",NA
+808,4,"I",1,51.4,34,28.7,13.9,"Chert",3,"None",NA,"2012",NA,NA,NA
+813,2,"A",4,24.7,18.2,2.4,3.5,"Chert",5,"None",NA,"Reanalayzed JB",3.5,NA,NA
+814,2,"A",4,18.5,15.3,7.1,2.5,"Chert",4,"None",NA,"Reanalayzed JB",NA,NA,NA
+815,2,"A",4,44.4,27.8,10.5,12.2,"Chert",3,"None","Feathered","Reanalayzed JB",7.4,NA,NA
+816,2,"A",4,27.6,15,6.3,4.4,"Chert",3,"None",NA,"Reanalayzed JB",NA,NA,NA
+817,2,"A",4,23,15.7,4.6,2.4,"Chert",3,"None","Feathered","Reanalayzed JB",NA,NA,NA
+818,2,"A",4,35,23.1,10.3,8.7,"Chert",5,"None",NA,"Reanalayzed JB",9.8,"Flat",NA
+819,2,"A",4,13.6,5.8,5,33.4,"Chert",4,"None","Feathered","Reanalayzed JB",7.1,NA,NA
+820,2,"A",4,38.2,36.6,11.1,16.9,"Chert",4,"<50%",NA,"Reanalayzed JB",10.1,"Flat",NA
+822,2,"A",4,32.4,13.2,4.4,2.3,"Chert",2,"None",NA,"Reanalayzed JB",NA,NA,NA
+823,2,"A",4,44.5,14.3,6.9,6.3,"Chert",5,"None",NA,"Reanalayzed JB",NA,NA,NA
+824,2,"A",4,36.8,18.8,5.9,4.8,"Chert",4,"None",NA,"Reanalayzed JB",5.9,NA,NA
+825,2,"A",4,24.2,15.6,4.1,2.3,"Chert",3,"None",NA,"Reanalayzed JB",4.6,NA,NA
+826,2,"A",4,29.8,13.9,6,2.8,"Chert",3,"None","Feathered","Reanalayzed JB",NA,NA,NA
+827,2,"A",4,31.4,15.6,6.7,4.8,"Chert",4,"None",NA,"Reanalayzed JB",NA,NA,NA
+828,2,"A",4,21.4,21.3,5,2.9,"Chert",5,"<50%",NA,"Reanalayzed JB",4.5,"Cortical",NA
+829,2,"A",4,26,14.9,3.6,1.8,"Chert",3,"None","Feathered","Reanalayzed JB",NA,NA,NA
+830,2,"A",4,25.8,15.4,4.5,2.1,"Chert",3,"None",NA,"Reanalayzed JB",4.3,NA,NA
+831,2,"A",4,22.5,15.3,4,2,"Chert",3,"None","Feathered","Reanalayzed JB",5.1,NA,NA
+832,2,"A",4,17.6,10.9,3.2,0.5,"Chert",4,"None","Feathered","Reanalayzed JB",3.6,"Flat",NA
+833,2,"A",4,21.7,13.7,3,1.2,"Chert",3,"None","Feathered","Reanalayzed JB",3.1,"Flat",NA
+834,2,"A",4,23.8,15.9,3.2,1.3,"Chert",4,"None",NA,"Reanalayzed JB",NA,NA,NA
+863,4,"R",1,28.3,18.1,5.8,3.7,"Chert",4,"None","Feathered","",6.8,"Flat",NA
+864,4,"R",1,17.2,10,3,0.5,"Chert",5,"None",NA,"",3,"Flat",NA
+864,4,"R",1,32,23.6,4,2.7,"Chert",5,"None",NA,"",3.9,NA,NA
+879,1,"B",7,33.5,28.9,6.1,7.5,"Chert",4,"None","Feathered","Reanalayzed JB, # 382 & 327-381",6.4,NA,NA
+880,1,"B",7,41.2,28.1,5.6,9,"Chert",3,"None","Overshot","Reanalayzed JB",8,"Flat",NA
+881,1,"B",7,69.2,30.6,44.7,22,"Chert",2,">50%","Overshot","Reanalayzed JB",NA,"Flat",NA
+882,1,"B",7,36.7,19.8,6.5,6.8,"Chert",2,"<50%","Stepped","Reanalayzed JB",9.8,"Cortical",NA
+883,1,"B",7,29.8,22.5,5.3,3.6,"Chert",5,"<50%",NA,"Reanalayzed JB",5.1,"Cortical",NA
+884,4,"P",1,48.6,21.2,12,12.4,"Chert",1,"None",NA,"",NA,NA,NA
+885,4,"P",1,32.8,27.1,6.7,7,"Chert",5,"<50%","Feathered","",7.6,NA,NA
+886,4,"P",1,40.4,32.7,12.3,10.1,"Chert",3,"<50%","Feathered","",9.7,"Flat",NA
+898,4,"S",1,33.6,28,8.8,9.3,"Chert",4,"None","Feathered","",9.4,NA,NA
+899,4,"S",1,57.2,33.8,20.2,12.6,"Limestone",2,"None","Feathered","Masonry",12.5,"Flat",NA
+900,4,"S",1,26.6,18.4,30.2,6.4,"Limestone",3,"None","Feathered","Masonry",4.8,"Flat",NA
+901,4,"S",1,37.5,27,5.3,5.2,"Limestone",2,"None","Feathered","Masonry",6.2,"Flat",NA
+902,4,"S",1,36.3,18.5,3.5,4.2,"Limestone",3,"None","Stepped","Masonry",NA,NA,NA
+903,4,"S",1,28.7,23.7,3.8,6.8,"Limestone",3,"None","Feathered","Masonry",6.3,"Flat",NA
+909,1,"A",7,41.3,56.4,24.4,14.8,"Chert",3,"<50%","Feathered","Reanalayzed JB",17.4,"Cortical",NA
+910,1,"A",7,52.4,33.1,16.3,10,"Chert",2,"None",NA,"Reanalayzed JB",9.3,NA,NA
+911,1,"A",7,38.3,28.5,13.7,10.9,"Chert",1,"<50%",NA,"Reanalayzed JB",10,"Cortical",NA
+912,1,"A",7,45.3,16.5,4.8,7.3,"Chert",2,"None","Feathered","Reanalayzed JB",NA,NA,NA
+913,1,"A",7,38.4,26.7,5.9,8.3,"Chert",4,"None",NA,"Reanalayzed JB",6.4,NA,NA
+914,1,"A",7,28.2,26.8,14.5,7.5,"Chert",5,"None",NA,"Reanalayzed JB",NA,NA,NA
+915,1,"A",7,30.5,26.3,6.3,4.2,"Chert",3,"None","Feathered","Reanalayzed JB",NA,NA,NA
+916,1,"A",7,17.8,29.5,5.4,3.4,"Chert",1,"None",NA,"Reanalayzed JB",NA,NA,NA
+917,1,"A",7,28.5,27.7,5.9,5.7,"Chert",5,"None","Feathered","Reanalayzed JB",7.2,"Flat",NA
+918,1,"A",7,28.7,22.3,4.9,4.7,"Chert",5,"None","Feathered","Reanalayzed JB",7.1,"Flat",NA
+919,1,"A",7,35.3,18.2,4.5,8.5,"Chert",3,"None",NA,"Reanalayzed JB",NA,NA,NA
+920,1,"A",7,17.8,14.8,1.1,2.6,"Chert",3,"None","Stepped","Reanalayzed JB",NA,NA,NA
+932,4,"R",2,45,NA,17.6,14.1,"Chert",3,"None",NA,"",14.1,"Flat",NA
+933,4,"R",2,31.9,21.3,4.4,7.3,"Chert",5,"None","Feathered","",7.3,NA,NA
+934,4,"R",2,31.7,23.2,2.4,4.3,"Chert",4,"None","Feathered","",2.8,"Flat",NA
+935,4,"R",2,23.6,16.2,1.8,3.9,"Chert",5,"None","Feathered","",2.9,"Flat",NA
+936,4,"R",2,29.3,16.4,1.1,2.7,"Chert",3,"None","Feathered","",3.4,"Flat",NA
+937,4,"R",2,20.9,9.3,0.8,2.7,"Chert",4,"None","Feathered","",NA,NA,NA
+938,4,"R",2,17.2,15.7,1.3,3.1,"Chert",5,"None",NA,"",3.5,NA,NA
+939,4,"R",2,21.6,13.4,0.9,2.2,"Chert",2,"None","Feathered","",2.5,"Flat",NA
+950,4,"R",2,19.3,9.2,1,5.9,"Chert",5,"None",NA,"",5.6,"Flat",NA
+951,2,"A",2,30,26.2,3.8,4.7,"Chert",4,"None","Feathered","Reanalyzed JB",6.2,"Flat",NA
+959,2,"A",5,24.5,17,3,5.1,"Chert",3,"None","Feathered","Reanalyzed JB",NA,NA,NA
+960,2,"A",5,31.3,19.1,3.4,4.9,"Chert",4,"None","Feathered","Reanalyzed JB",7.1,"Flat",NA
+961,2,"A",5,19,25.7,1.5,3.7,"Chert",5,"None",NA,"Reanalyzed JB",4.3,"Flat",NA
+962,2,"A",5,25.3,24.5,4.6,6.8,"Chert",3,"None","Hinged","Reanalyzed JB",6.5,"Flat",NA
+963,2,"A",5,30,2.3,8.3,4.4,"Chert",4,"None","Feathered","Reanalyzed JB",NA,NA,NA
+964,2,"A",5,15.3,16.4,0.8,3.1,"Chert",3,"None",NA,"Reanalyzed JB",NA,NA,NA
+965,2,"A",5,12.9,22,1.2,3.2,"Chert",4,"None",NA,"Reanalyzed JB",NA,NA,NA
+966,2,"A",5,23.1,12.6,1.1,3.4,"Chert",4,"None",NA,"Reanalyzed JB",NA,NA,NA
+967,2,"A",5,25.8,12,2.9,7.3,"Chert",3,"None",NA,"Reanalyzed JB",NA,NA,NA
+968,2,"A",5,32.6,14.5,2.7,4.1,"`Chert",3,"None",NA,"Reanalyzed JB",NA,NA,NA
+969,2,"A",5,32.9,11.7,2.7,5.6,"Chert",2,"None",NA,"Reanalyzed JB",NA,NA,NA
+972,2,"A",5,26.9,18.6,2,3.2,"Chert",3,"None","Feathered","Reanalyzed JB",NA,"Flat",NA
+973,2,"A",5,16.8,13.1,0.7,2.6,"Chert",4,"None","Feathered","Reanalyzed JB",NA,NA,NA
+974,2,"A",5,11.2,11.8,0.6,2.9,"Chert",2,"None",NA,"Reanalyzed JB",NA,NA,NA
+975,2,"A",5,11.3,11.1,0.3,2,"Chert",2,"None","Feathered","Reanalyzed JB",0.4,"Flat",NA
+988,2,"A",3,15.1,20.2,2.4,6.7,"Chert",5,"None",NA,"Reanalyzed JB",6.8,NA,NA
+989,2,"A",3,20.9,16.4,2.2,5,"Chert",2,"None","Feathered","Reanalyzed JB",6.8,"Flat",NA
+990,2,"A",3,19.1,15.6,0.9,3.5,"Chert",4,"None","Feathered","Reanalyzed JB",3.9,NA,NA
+991,2,"A",3,15.5,25.7,1.7,4.3,"Chert",4,"None","Feathered","Reanalyzed JB",5.2,NA,NA
+992,2,"A",3,14,16.5,0.9,2.3,"Chert",4,"None","Feathered","Reanalyzed JB",3.8,NA,NA
+993,2,"A",3,29.5,15.7,0.1,3,"Chert",3,"None","Feathered","Reanalyzed JB",NA,NA,NA
+994,2,"A",3,9,10.8,0.3,2,"Chert",5,"None","Feathered","Reanalyzed JB",3,"Flat",NA
+995,2,"A",3,13.6,17.5,0.5,2.5,"Chert",5,"None","Feathered","Reanalyzed JB",3,"Flat",NA
+996,2,"A",3,38.5,34.7,11.7,17.5,"Chert",4,"<50%",NA,"Reanalyzed JB",12.2,"Flat",NA
+997,2,"A",3,34.1,16.7,5.9,9.1,"Chert",3,"<50%",NA,"Reanalyzed JB",9.2,NA,NA
+998,2,"A",3,25,34.6,6.9,11.9,"Chert",5,"<50%",NA,"Reanalyzed JB",10.4,NA,NA
+999,2,"A",3,34.8,14.6,4,5.5,"Chert",3,"None","Stepped","Reanalyzed JB",6.4,NA,NA
+1000,2,"A",3,32.2,16.9,4.6,8.9,"Chert",4,"None",NA,"Reanalyzed JB",NA,NA,NA
+1002,2,"A",3,33.8,15.4,2.8,5.1,"Chert",3,"None",NA,"Reanalyzed JB",NA,NA,NA
+1003,2,"A",3,29.3,11.8,3,6.3,"Chert",4,"None",NA,"Reanalyzed JB",NA,NA,NA
+1004,2,"A",3,28.3,12.1,3,5.9,"Chert",3,"None",NA,"Reanalyzed JB",NA,NA,NA
+1005,2,"A",3,26.1,13.9,1.2,4.6,"Chert",5,"<50%",NA,"Reanalyzed JB",NA,NA,NA
+1007,2,"A",3,29.5,13.5,3.5,2.1,"Chert",3,"None",NA,"Reanalyzed JB",NA,NA,NA
+1009,2,"A",3,10.1,22.1,1.1,3.6,"Chert",3,"None","Feathered","Reanalyzed JB",NA,NA,NA
+1010,2,"A",3,22.6,12.5,2.1,5.7,"Chert",3,"None",NA,"Reanalyzed JB",NA,NA,NA
+1011,2,"A",3,22.6,12.1,1.4,4.1,"Chert",3,"None",NA,"Reanalyzed JB",NA,NA,NA
+1012,2,"A",3,27.7,15,1.8,3.6,"Chert",4,"None","Feathered","Reanalyzed JB",NA,NA,NA
+1013,2,"A",3,30.5,11.8,2.8,6.1,"Chert",4,"None","Feathered","Reanalyzed JB",NA,NA,NA
+1014,2,"A",3,28.5,16.6,2.5,5.4,"Chert",4,"None",NA,"Reanalyzed JB",NA,NA,NA
+1015,2,"A",3,30.5,15.9,3.8,5.8,"Chert",3,"None",NA,"Reanalyzed JB",NA,NA,NA
+1016,2,"A",3,29.6,14.4,2.3,4.7,"Chert",5,"None",NA,"Reanalyzed JB",NA,NA,NA
+1017,2,"A",3,32.8,11.8,3.2,6.2,"Chert",4,"None",NA,"Reanalyzed JB",NA,NA,NA
+1018,2,"A",3,32,15.8,3.6,6,"Chert",1,"None","Feathered","Reanalyzed JB",NA,NA,NA
+1019,2,"A",3,36.8,15.8,5,5.4,"Chert",3,"None",NA,"Reanalyzed JB",NA,NA,NA
+1021,2,"A",3,37.5,15.1,4.2,15,"Chert",3,"None",NA,"Reanalyzed JB",NA,NA,NA
+1022,2,"A",3,29.9,12.1,3.3,5.5,"Chert",3,"None",NA,"Reanalyzed JB",NA,NA,NA
+1023,2,"A",3,33.5,15.8,5.2,8.2,"Chert ",4,"None",NA,"Reanalyzed JB",NA,NA,NA
+1024,2,"A",3,30.4,12.7,3.3,6.5,"Chert",4,"None",NA,"Reanalyzed JB",NA,NA,NA
+1025,2,"A",3,26,11.5,1.3,3.9,"Chert",3,"None",NA,"Reanalyzed JB",NA,NA,NA
+1027,2,"A",3,24.4,11.8,2,4.7,"Chert",3,"None",NA,"Reanalyzed JB",NA,NA,NA
+1028,2,"A",3,33.5,15.2,3.4,4.9,"Chert",3,"None",NA,"Reanalyzed JB",NA,NA,NA
+1029,2,"A",3,30.3,12.8,2.4,4.9,"Chert",3,"None",NA,"Reanalyzed JB",NA,NA,NA
+1030,2,"A",3,32.7,9.9,2.5,7.4,"Chert",3,"None",NA,"Reanalyzed JB",NA,NA,NA
+1031,2,"A",3,24.7,12.8,2.2,4.9,"Chert",4,"None",NA,"Reanalyzed JB",NA,"Flat",NA
+1032,2,"A",3,26.1,10.6,1.8,4.1,"Chert",4,"<50%",NA,"Reanalyzed JB",NA,NA,NA
+1033,2,"A",3,22.7,10.3,1.2,3.9,"Chert",4,"None",NA,"Reanalyzed JB",NA,"Flat",NA
+1034,2,"A",3,26.2,10.3,1.8,5.7,"Chert",3,"None",NA,"Reanalyzed JB",NA,NA,NA
+1035,2,"A",3,24.9,12.2,1.6,4.4,"Chert",4,"<50%",NA,"Reanalyzed JB",NA,NA,NA
+1036,2,"A",3,23.3,9.3,2.2,5.5,"Chert",4,"None",NA,"Reanalyzed JB",NA,NA,NA
+1037,2,"A",3,25.8,15.6,1.8,3.4,"Chert",4,"None",NA,"Reanalyzed JB",2.5,NA,NA
+1038,2,"A",3,30.6,16.8,1.5,2.9,"Chert",4,"None",NA,"Reanalyzed JB",3.1,NA,NA
+1039,2,"A",3,25.3,32,4.8,7.4,"Chert",4,"None","Feathered","Reanalyzed JB",6.9,"Flat",NA
+1040,2,"A",3,29.2,14.6,3.1,6.6,"Chert",4,"None","Feathered","Reanalyzed JB",NA,NA,NA
+1041,2,"A",3,27.4,11.7,0.9,3.1,"Chert",5,"None","Feathered","Reanalyzed JB",NA,NA,NA
+1042,2,"A",3,33.8,17.3,2.5,6.2,"Chert",2,"<50%",NA,"Reanalyzed JB",3,NA,NA
+1043,2,"A",3,27.1,13.2,2.3,5.2,"Chert",1,"None",NA,"Reanalyzed JB",NA,NA,NA
+1044,2,"A",3,30.6,17.3,1.7,2.9,"Chert",2,"None",NA,"Reanalyzed JB",2.9,NA,NA
+1045,2,"A",3,24.6,1.8,1.4,4.6,"Chert",3,"None",NA,"Reanalyzed JB",3.7,"Flat",NA
+1046,2,"A",3,32.8,12.5,3.5,6.3,"Chert",3,"<50%",NA,"Reanalyzed JB",5.8,NA,NA
+1047,2,"A",3,23.2,25.2,2.1,3.5,"Chert",4,"None","Feathered","Reanalyzed JB",4.8,"Flat",NA
+1048,2,"A",3,26.2,16.5,3.5,6.6,"Chert",4,"None",NA,"Reanalyzed JB",5.8,NA,NA
+1049,2,"A",3,19.9,24,2.4,4.8,"Chert",4,"None","Stepped","Reanalyzed JB",4.9,NA,NA
+1050,2,"A",3,26.4,13,2.6,5.1,"Chert",3,"None",NA,"Reanalyzed JB",NA,NA,NA
+1051,2,"A",3,18.5,24.4,2.5,4.5,"Chert",2,"None","Stepped","Reanalyzed JB",4.8,NA,NA
+1052,2,"A",3,23.2,14.4,2.2,8,"Chert",4,"<50%","Feathered","Reanalyzed JB",8.2,"Flat",NA
+1053,2,"A",3,21,17.7,1.3,3.4,"Chert",4,"None","Feathered","Reanalyzed JB",7,NA,NA
+1054,2,"A",3,24.3,12.6,1.1,3.4,"Chert",4,"None","Feathered","Reanalyzed JB",NA,NA,NA
+1055,2,"A",3,19.6,18.8,1.1,3.3,"Chert",5,"None","Stepped","Reanalyzed JB",3,NA,NA
+1056,2,"A",3,24,21.8,1.3,3.5,"Chert",1,"None",NA,"Reanalyzed JB",NA,NA,NA
+1057,4,"J",2,48.2,32,23.9,17.7,"Limestone",4,"<50%",NA,"Reanalyzed JB, Masonry Flake",12.9,"Flat",NA
+1067,4,"G",2,32.6,31.9,7.9,6.2,"Chert",1,"<50%",NA,"Reanalyzed JB",6.2,NA,NA
+1068,4,"G",2,35.8,29.4,7.7,7.4,"Chert",3,"None","Feathered","Reanalyzed JB",6.5,NA,NA
+1069,4,"G",2,38.5,33.9,11.7,33.9,"Chert",4,"<50%",NA,"Reanalyzed JB",7.8,NA,NA
+1070,4,"G",2,30.5,27.9,4.2,6.8,"Chert",3,"None",NA,"Reanalyzed JB",6,NA,NA
+1074,3,"A",1,16,10.5,0.6,4.3,"Chert",4,"None","Feathered","Reanalyzed JB",4.3,"Flat",NA
+1075,3,"A",1,38.9,6.2,8.8,5.6,"Chert",3,"<50%",NA,"Reanalyzed JB",7.6,NA,NA
+1076,3,"A",1,27.3,22.9,6.4,4.2,"Limestone",2,"None",NA,"Reanalysed JB, masonry Flake ",NA,NA,NA
+1077,2,"B",1,28,15.7,3.6,5.5,"Chert",3,"None",NA,"Reanalyzed JB",NA,NA,NA
+1078,2,"B",1,16.7,10.7,0.9,4.5,"Chert",4,"None",NA,"Reanalyzed JB",4.4,"Flat",NA
+1079,2,"B",1,2.7,9.5,1.3,4.5,"Chert",4,"None",NA,"Reanalyzed JB",NA,NA,NA
+1080,2,"B",1,26.4,9.5,1.7,5.1,"Chert",3,"None",NA,"Reanalyzed JB",NA,NA,NA
+1081,2,"B",1,19,12.6,0.9,3.6,"Chert",4,"None","Feathered","Reanalyzed JB",4.9,NA,NA
+1082,1,"B",9,43.7,21.8,6.1,5.2,"Chert",5,"<50%","Stepped","Reanalyzed JB",7.5,"Flat",NA
+1083,1,"B",9,16.9,23.8,2,4,"Chert",2,"None","Feathered","Reanalyzed JB",4.7,NA,NA
+1084,1,"B",9,44.4,31.4,15.3,11.8,"Chert",3,"<50%","Feathered","Reanalyzed JB",11.3,"Flat",NA
+1085,1,"B",9,11.6,18,0.6,2.8,"Chert",3,"<50%","Feathered","Reanalyzed JB",3,"Flat",NA
+1086,1,"B",9,19.3,16.8,1.1,3,"Chert",5,"None","Feathered","Reanalyzed JB",3.5,"Flat",NA
+1087,1,"B",9,36.3,25.6,6.3,5.5,"Chert",4,"None","Feathered","Reanalyzed JB",5.7,"Flat",NA
+1088,1,"B",9,27.5,18.2,3,4.7,"Chert",4,"None","Stepped","Reanalyzed JB",3,"Flat",NA
+1093,1,"B",2,17.8,27.4,3.1,5.7,"Chert",3,"None","Feathered","Reanalyzed JB",7.4,"Flat",NA
+1094,1,"B",2,36.2,19.3,6.8,5.7,"Chert",3,"None",NA,"Reanalyzed JB",NA,NA,NA
+1095,1,"B",2,15.1,20.1,1.4,5.9,"Chert",2,"None","Feathered","Reanalyzed JB",5.3,"Flat",NA
+1096,1,"B",4,41.6,30,18.1,10.8,"Chert",3,"None","Stepped","Reanalyzed JB",15,NA,NA
+1097,1,"B",4,10.4,9.1,0.4,2.6,"Chert",3,"None","Feathered","Reanalyzed JB",NA,NA,NA
+1098,1,"B",2,37.8,76.2,37.8,16.1,"Chert",4,"<50%","Feathered","Reanalyzed JB",11.6,"Flat",NA
+1099,1,"B",2,30,15.3,3.5,7.3,"Chert",5,"None","Feathered","Reanalyzed JB",NA,NA,NA
+1100,1,"B",2,23.2,22.2,3.1,6.3,"Chert",5,"None",NA,"Reanalyzed JB",5.5,NA,NA
+1108,2,"A",1,38.4,39,10.5,8.1,"Chert",4,"None","Feathered","Reanalyzed JB",8.7,NA,NA
+1109,2,"A",1,28.9,27,7.2,6.5,"Chert",3,"None",NA,"Reanalyzed JB",6.9,"Flat",NA
+1110,2,"A",1,49,25.8,7.4,8.7,"Chert",5,"<50%",NA,"Reanalyzed JB",5.7,"Flat",NA
+1111,2,"A",1,24,16.7,3.1,7.5,"Chert",3,"None",NA,"Reanalyzed JB",8.8,"Flat",NA
+1112,2,"A",1,26.1,20.2,1.4,2.5,"Chert",5,"None","Feathered","Reanalyzed JB",NA,NA,NA
+1113,2,"A",1,26.1,18.5,3.9,5.7,"Chert",5,"None","Feathered","Reanalyzed JB",8.4,"Flat",NA
+1114,2,"A",1,26.9,25.2,3.5,4.5,"Chert",5,"None",NA,"Reanalyzed JB",4,"Flat",NA
+1115,2,"A",1,26.8,10.8,2,4,"Chert",2,"None",NA,"Reanalyzed JB",NA,NA,NA
+1116,2,"A",1,21.6,16.1,1.9,7.3,"Chert",3,"None","Feathered","Reanalyzed JB",NA,NA,NA
+1117,2,"A",1,29.8,16.2,2.4,4.3,"Chert",3,"None",NA,"Reanalyzed JB",3.3,"Flat",NA
+1118,2,"A",1,14.4,22,1.4,3.9,"Chert",5,"None","Feathered","Reanalyzed JB",4.2,"Flat",NA
+1119,2,"A",1,26.2,17.3,1.9,3.9,"Chert",1,"None","Feathered","Reanalyzed JB",NA,NA,NA
+1120,2,"A",1,16.8,16.7,NA,2.3,"Chert",5,"None",NA,"Reanalyzed JB",2.8,NA,NA
+1121,2,"A",1,16.3,2.6,1.7,3.3,"Chert",3,"None",NA,"Reanalyzed JB",NA,NA,NA
+1122,2,"A",1,20.5,22.7,1,1.5,"Chert",3,"None",NA,"Reanalyzed JB",NA,NA,NA
+1123,2,"A",1,8.4,16.6,0.6,2.9,"Chert",5,"None",NA,"Reanalyzed JB",2.5,"Flat",NA
+1124,2,"A",1,27.8,12.7,2.4,4.4,"Chert",5,"<50%","Stepped","Reanalyzed JB",5.8,"Cortical",NA
+1125,2,"A",6,31,32.8,4,3.2,"Chert",3,"None","Feathered","Reanalyzed JB",4.9,"Flat",NA
+1126,2,"A",6,19.8,23.6,1.7,4.3,"Chert",5,"None","Feathered","Reanalyzed JB",4.2,"Flat",NA
+1128,6,"B",4,19.9,17,1,6,"Chert",2,"None","Feathered","Reanalyzed JB",6.1,"Flat",NA
+1142,4,"J",4,18.4,10.2,0.8,4.8,"Obsidian",NA,"None","Overshot","Overshot Termination",NA,NA,"Thinning Flake"
+1143,4,"J",4,22.3,9.9,0.6,4.2,"Obsidian",NA,"<50%","Feathered","Feathered Termination and Cortex",NA,NA,"Thinning Flake"
+1145,4,"J",5,27.5,14.6,1.2,3.6,"Obsidian",NA,"None",NA,"",NA,NA,"Flake"
+1152,4,"J",5,18,13.9,0.8,4.8,"Obsidian",NA,"None",NA,"",NA,NA,"Percussion  Flake"
+1153,4,"J",5,17.9,14.5,0.3,1.9,"Obsidian",NA,"None",NA,"Flaking on Dorsal Side",NA,NA,"Percussion  Flake"
+1156,4,"J",5,24.1,5.3,0.3,3.5,"Obsidian",NA,"None","Overshot","Slight Over Shot",NA,NA,"Flake"
+1161,4,"J",5,32.2,11,0.9,3.9,"Obsidian",NA,"None","Overshot","Striation Over Shot",NA,NA,"Percussion  Flake"
+1173,4,"J",5,13.6,11.1,0.2,2.2,"Obsidian",NA,"None",NA,"Bulb Striations ",NA,NA,"Flake"
+1175,4,"J",5,20.9,3.4,0.1,1.3,"Obsidian",NA,"None",NA,"Thinning Flake",NA,NA,"Thinning Flake"
+1177,4,"J",5,12.6,6.8,0.1,0.9,"Obsidian",NA,"None",NA,"",NA,NA,"Flake"
+1180,4,"J",5,15.4,4.7,0.1,1.5,"Obsidian",NA,"None",NA,"",NA,NA,"Flake"
+1181,4,"J",5,17.7,5.7,0.1,1,"Obsidian",NA,"None",NA,"Rippling",NA,NA,"Flake"
+1183,4,"J",5,13.1,7.2,1.3,1.5,"Obsidian",NA,"None",NA,"Small Bulb",NA,NA,"Thinning Flake"
+1184,4,"J",5,6.7,8,0.1,0.9,"Obsidian",NA,"None",NA,"Rippling",NA,NA,"Flake"
+1185,4,"J",5,9.2,6.9,0.1,1.7,"Obsidian",NA,"None",NA,"",NA,NA,"Flake"
+1187,4,"J",6,24.7,7.2,0.7,3.1,"Obsidian",NA,"None","Overshot","Striations Dark Lines Overshot Term",NA,NA,"Flake"
+1193,4,"J",6,9.3,15.2,0.2,1.3,"Obsidian",2,"None",NA,"Bulb Poor Quality",NA,NA,"Flake"
+1194,4,"J",6,24.8,6.1,0.2,1.1,"Obsidian",NA,"None",NA,"Rippling Dorsal Chippened",NA,NA,"Thinning Flake"
+1196,4,"J",6,10.5,6.5,0.1,1.6,"Obsidian",2,"None",NA,"Striations Poor Quality Small Bulb",NA,NA,"Flake"
+1197,4,"J",6,12.7,10.4,0.5,2.6,"Obsidian",NA,"None",NA,"Lots of Ventral Scarring ",NA,NA,"Flake"
+1198,4,"J",6,20.2,9.1,0.8,4.1,"Obsidian",NA,"None",NA,"Flake Broken Down Middle Bulb",NA,NA,"Thinning Flake"
+1201,4,"J",6,17.1,7.5,0.2,1.5,"Obsidian",NA,"None",NA,"",NA,NA,"Flake"
+1204,4,"J",6,13.2,7.5,0.2,1.5,"Obsidian",NA,"None",NA,"Striations Possible Small Bulb",NA,NA,"Thinning Flake"
+1207,4,"J",6,10.5,8.9,0.1,0.6,"Obsidian",NA,"None",NA,"Bulb",NA,NA,"Flake"
+1208,4,"J",6,8.8,9.1,0.1,1.5,"Obsidian",NA,"None",NA,"",NA,NA,"Flake"
+1210,4,"J",6,13.9,8.2,0.2,0.5,"Obsidian",NA,"None",NA,"Small Bulb",NA,NA,"Thinning Flake"
+1211,4,"J",6,15.1,7,0.1,1.1,"Obsidian",NA,"None",NA,"Ripples, Slight Striations",NA,NA,"Flake"
+1212,4,"J",6,11.2,7.7,0.2,1.7,"Obsidian",NA,"None",NA,"Small Bulb",NA,NA,"Thinning Flake"
+1214,4,"J",6,15.9,9.1,0.5,3.3,"Obsidian",NA,"None","Overshot","Flaking on Both Sides Overshot Term Rippling",NA,NA,"Thinning Flake"
+1227,4,"J",4,20.9,6.5,0.4,2.9,"Obsidian",NA,"None",NA,"Ripples and Striations Small Bulb",NA,NA,"Flake"
+1228,4,"J",4,12.7,14.3,0.4,3.9,"Obsidian",NA,"None",NA,"Bulb",NA,NA,"Flake"
+1229,4,"J",4,16,12.9,0.3,2.2,"Obsidian",NA,"None",NA,"Small Bulb Rough Dorsal Surface",NA,NA,"Flake"
+1230,4,"J",4,10.8,11.1,0.5,5.6,"Obsidian",NA,"None",NA,"Dorsal Flake Scars",NA,NA,"Flake"
+1232,4,"J",4,25.6,6.4,0.1,1,"Obsidian",NA,"None",NA,"Rippling Small Bulb",NA,NA,"Thinning Flake"
+1235,4,"J",4,16.3,7.7,0.2,2.1,"Obsidian",NA,"None",NA,"Rippling Small Bulb, Striation, Dorsal Kneck",NA,NA,"Flake"
+1236,4,"J",4,9.5,9.8,0.1,1.8,"Obsidian",NA,"None",NA,"Dorsal Kneck Bulb",NA,NA,"Flake"
+1237,4,"J",4,9.5,11.8,0.1,1.6,"Obsidian",NA,"None",NA,"Striations Small Bulb",NA,NA,"Flake"
+1238,4,"J",4,8.6,6,0.1,1,"Obsidian",NA,"None",NA,"Small Bulb",NA,NA,"Flake"
+1239,4,"J",4,13.9,6,0.1,1.2,"Obsidian",NA,"None",NA,"",NA,NA,"Flake"
+1240,4,"J",4,11.11,8.2,0.1,2.1,"Obsidian",NA,"None",NA,"Small Bulb Rippling",NA,NA,"Flake"
+1241,4,"J",4,9,5.1,0.1,2.4,"Obsidian",NA,"None",NA,"Dorsal Report Ventral Side Nicking",NA,NA,"Flake"
+1242,4,"J",4,9,5,0.1,0.5,"Obsidian",NA,"None",NA,"",NA,NA,"Thinning Flake"
